@@ -1,0 +1,2 @@
+add_library(log_interface INTERFACE)
+target_include_directories(log_interface INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
